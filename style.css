@@ -1,0 +1,52 @@
+body {
+  background-color: #add8e6;
+  margin: 0px;
+}
+
+header {
+  display: flex;
+  background-color: #ADBCE6;
+  border: white 5px dashed;
+}
+
+header h1 {
+  font-size: 78px;
+  margin-right: auto;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header ul {
+  list-style-type: none;
+  display: flex;
+  margin-right: 100px;
+  font-size: 36px;
+}
+
+header li {
+  padding: 50px;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  padding: 50px;
+}
+
+.jacquard-12-regular {
+  font-family: "Jacquard 12", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.indie-flower-regular {
+  font-family: "Indie Flower", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
