@@ -50,3 +50,9 @@ section {
   font-weight: 400;
   font-style: normal;
 }
+
+.button {
+  background-color: blue;
+  width: 50px;
+  height: 25px;
+}
