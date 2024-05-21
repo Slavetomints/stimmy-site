@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+    <title>Etch A Sketch</title>
+  </head>
+  
+  <body>
+
+    <h1>Etch-A-Sketch</h1>
+
+    <div id="size" class="even-spacing">
+      <label for="number-of-squares">Etch-A-Sketch size</label>
+      <input id="number-of-squares" type="number" number="number-of-squares" min="0" max="100">
+      <button id="size-button">Update the canvas</button>
+    </div>
+
+    <div class="even-spacing">
+      <label for="color-option">Select your mode!</label>
+      <select id="color-option">
+        <option value="normal">Normal</option>
+        <option value="rainbow">Random Rainbow</option>
+        <option value="opacity-shifter">Opacity Shifter</option>
+      </select>
+    </div>
+
+    <div id="container"></div>
+
+  </body>
+</html>
